@@ -1,3 +1,109 @@
 body{
-    background-color: saddlebrown;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1E3A8A;
 }
+
+header{
+    background-color: #1E3A8A;
+    color: #FFF9F2;
+    text-align: center;
+    padding: 0px 0;
+        
+
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.navbar{
+    background-color: #F6A13C;
+    color: #FFF9F2;
+    padding: 10px 20px;
+
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+}
+.logo{
+    display: inline-block;
+    width: 200px; /* Ancho de la imagen */
+    height: 100px; /* Altura de la imagen */
+    background: url('../img/imgs_LandingPage/logo1.png') no-repeat center center;
+    background-size: contain;
+    text-indent: -9999px; /* Esto oculta el texto */
+    overflow: hidden;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0;
+}
+.menu li{
+    margin-right: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #FFF9F2;
+    transition: color 0.3s;
+    
+}
+.menu li a:hover{
+    color: #FFD5A5;
+    
+}
+.cta-content{
+    min-height: 700px;
+    background-color: #1E3A8A;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-text{
+    text-align: left;
+    width: 50%;
+}
+.cta-content h2{
+    font-weight: 900;
+    font-style: normal;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+.cta-content p{
+    font-size: 16px;
+    
+}
+.cta-button{
+    width: 358px;
+    height: 74px;
+    background-color: #F6A13C;
+    color: #FFF9F2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+ 
+}
+.cta-button:hover{
+    background-color: #FFD5A5;
+}
+
+.cta-image img{
+    max-width: 70%;
+    height: auto;
+}
+
