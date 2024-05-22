@@ -3,6 +3,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #1E3A8A;
+
+    
 }
 
 header{
@@ -105,5 +107,174 @@ header{
 .cta-image img{
     max-width: 70%;
     height: auto;
+}
+
+section{
+    /* max-width: 1440px; */
+    background-color: #FFF9F2;
+    color: #1E3A8A;
+    text-align: center;
+    padding: 0px 0;
+
+}
+.target-audience{
+    padding: 20px;
+    
+}
+.target-audience h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 900;
+
+}
+.target-audience-content{
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+ .target-audience-content a{
+    text-align: center;
+    width: 30%;
+    text-decoration: none;
+    color:#1E3A8A;
+    background-color: #FBB768;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 30px;
+}
+.about_us-image{ 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about_us-image img{
+    max-width: 50%;
+    height: auto;
+}
+
+.target-audience-content h3{
+   font-size: 32px;
+   font-weight: 900;
+}
+.target-audience-content p{
+    font-size: 16px;
+    color: black;
+ }
+ 
+ #bus-image img{
+    width: 1440px ;
+    height: 572px;
+ }
+ 
+ #about-us-p2{
+    background-color:#1E3A8A;
+    text-align: center;
+    padding: 0px 0;
+ }
+
+ #logo_about-us img{
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+ }
+
+.why-to-use {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     background-color:#1E3A8A; /* Color de fondo del botón */
+     color: #F6A13C;
+     padding: 20px;
+     border-radius: 30px;
+ }
+ 
+ .left-side {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     margin-right: 20px; /* Espacio entre la parte izquierda y la derecha */
+     margin-top: 50px;
+ }
+ 
+ .left-side h2 {
+     margin-bottom: 30px; /* Espacio entre el título y el logo */
+     width: 50%;
+     margin-left: 50px;
+ }
+ 
+ 
+ .right-side {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 70%;
+ }
+ 
+ .feature {
+    margin-top: 100px;
+     width: calc(33% - 20px);
+     margin-bottom: 20px; /* Espacio entre cada característica */
+     text-align: center;
+ }
+ 
+ .feature h3 {
+     font-size: 16px;
+     font-weight: 900;
+     margin-bottom: 10px; /* Espacio entre el título y el párrafo */
+ }
+
+ #about-us-p3{
+    background-color: #131313;
+    color: #FFF9F2;
+    text-align: center;
+    padding: 40px 0;
+ }
+
+ #encomanage-logo img{
+    width: 409px;
+    height: 73px;
+    margin-bottom: 20px;
+ }
+
+.our-team{
+    padding:20px;
+}
+
+.Members{
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+.Member{
+    text-align: center;
+    width: calc(25% - 20px); 
+    margin: 10px;
+    text-decoration: none;
+    background-color:#131313;
+    border: 2px solid #FFF9F2;
+    padding: 20px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.member-image img{
+    width: 140px;
+    height: 133px;
+    border-radius: 25%;
+ 
+ }
+
+.Member h2{
+    font-weight: normal;
+}
+
+
+.Member h1, .Member h2 {
+    margin-top: 50px;
+    margin-bottom: 70px; /* Espacio entre el título y subtítulo */
 }
 
