@@ -3,11 +3,12 @@ body{
     margin: 0;
     padding: 0;
     background-color: #1E3A8A;
+
     
 }
 
 header{
-    background-color:#1E3A8A;
+    background-color: #1E3A8A;
     color: #FFF9F2;
     text-align: center;
     padding: 0px 0;
@@ -15,8 +16,8 @@ header{
 
 }
 .container{
-    max-width: 1440px; 
-    margin: 0 auto; 
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 0 20px;
 
 }
@@ -276,3 +277,4 @@ section{
     margin-top: 50px;
     margin-bottom: 70px; /* Espacio entre el título y subtítulo */
 }
+
