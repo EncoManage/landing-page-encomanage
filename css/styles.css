@@ -548,3 +548,69 @@ input[type="radio"]{
 .youtube1{
     border-radius: 30px;
 }
+
+.galeria de imagenes{
+    background: #FFD5A5;
+}
+
+.gal-img{
+    background: #FFD5A5;
+    height:1050px;
+}
+.gal-img-header{
+    height: 12rem;
+    align-content: center;
+    background-color: #FBB768;
+}
+
+.gal-img-titulo{
+    align-content: center;
+    font-weight: 900;
+    font-size: 32px;
+    color: #1E3A8A;
+}
+
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 250%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	float: left;
+	width: 20%;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -50%;
+    }
+    45% {
+        left: -50%;
+    }
+    50% {
+        left: -100%;
+    }
+    70% {
+        left: -100%;
+    }
+    75% {
+        left: -150%;
+    }
+    95% {
+        left: -150%;
+    }
+    100% {
+        left: -200%;
+    }
+}
