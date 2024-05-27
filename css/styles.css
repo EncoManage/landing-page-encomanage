@@ -3,11 +3,12 @@ body{
     margin: 0;
     padding: 0;
     background-color: #1E3A8A;
+
     
 }
 
 header{
-    background-color:#1E3A8A;
+    background-color: #1E3A8A;
     color: #FFF9F2;
     text-align: center;
     padding: 0px 0;
@@ -15,8 +16,8 @@ header{
 
 }
 .container{
-    max-width: 1440px; 
-    margin: 0 auto; 
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 0 20px;
 
 }
@@ -338,4 +339,242 @@ section{
 
 
 
+
+=======
+.beneficios{
+    background:#FFF9F2;
+}
+
+.beneficios-box{
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.beneficios .beneficios-heading{
+    margin-bottom: 5rem;
+}
+
+.beneficios-heading{
+    height: 6rem;
+    align-content: center;
+    font-weight:900;
+    font-size: 32px;
+    color:#F6A13C
+}
+
+.beneficios-box img{
+    width: 10rem;
+    border: 3px solid var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+
+.beneficio-item{
+    background: #FFD5A5;
+    border-radius: 5rem;
+    margin:0 5rem;
+    padding: 30px 60px;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    color: #131313;
+    gap:1.5px;
+    transition:0.4 ease-in-out;
+}
+
+.beneficio-item:hover{
+    transform: translateY(-10px)scale(1.03);
+}
+
+.beneficios-footer{
+    height: 14rem;
+    align-content: center;
+}
+
+.precios{
+    background:#FFD5A5;
+}
+
+.precios-heading{
+    height: 12rem;
+    padding: 0px 0;
+    align-content: center;
+    background-color: #FBB768;
+}
+
+.precios-heading h2{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.precios-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#131313;
+}
+
+.precios-box{
+    display: flex;
+    margin:1px auto;
+    width:1100px;
+}
+
+.wrapper-pr{
+    width:800px;
+    margin:50px;
+    padding:20px;
+    background: #FFF9F2;
+    border-radius: 50px;
+    text-align: center;
+    border:1px solid transparent;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+    transition: 0.5s;
+}
+
+.wrapper-pr:hover{
+    border:3px solid #F6A13C;
+    background: #FFD5A5;
+    transition: all 0.5s;
+}
+
+.wrapper-pr h1{
+    font-size:100px;
+    color:#1E3A8A;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.wrapper-pr h2{
+    margin-top:30px;
+    color:#F6A13C;
+}
+
+.wrapper-pr span{
+    font-size:40px;
+    margin-right:8px;
+    color:#1E3A8A;
+}
+
+.wrapper-pr button{
+    width:85%;
+    background:#F6A13C;
+    border:1px solid transparent;
+    padding:20px;
+    border-radius: 30px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size:32px;
+    cursor:pointer;
+    color:#FFF9F2;
+    transition: 0.5s;
+}
+
+.btn-act:hover{
+    background:#1E3A8A;
+    color:#FFF9F2;
+    transition:all 0.5s ease-in-out; 
+}
+
+.wrapper-pr ul{
+    list-style:none;
+    text-align:left;
+    margin-top:20px; 
+    margin-bottom:30px;
+}
+
+.wrapper-pr ul li{
+    margin-top:10px;
+    cursor:pointer;
+    color:#131313;
+}
+
+.tlt-pr{
+    font-weight: 700;
+}
+
+.preguntas-frecuentes{
+    background: #FFF9F2;
+}
+
+.fqa-heading{
+    height: 12rem;
+    align-content: center;
+    background-color: #FFF9F2;
+}
+
+.fqa-title{
+    align-content: center;
+    font-weight: 900;
+    font-size: 32px;
+    color: #F6A13C;
+}
+
+.fqa-title-text{
+    align-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E3A8A;
+}
+
+.fqa{
+    background: #FFF9F2;
+    height:1050px;
+}
+
+.accordion-fqa{
+    margin:10px auto;
+    width:1000px;
+}
+
+.accordion-fqa li{
+    list-style:none;
+    margin:20px;
+    padding:30px;
+    border-radius: 50px;
+    background: #FFD5A5;
+}
+
+.accordion-fqa li label{
+    display:flex;
+    align-items:center;
+    padding:20px;
+    font-size:32px;
+    font-weight: 400;
+    cursor:pointer;
+}
+
+label::before{
+    content:'+';
+    margin-right:10px;
+    font-size:32px;
+    font-weight:400;
+}
+
+input[type="radio"]{
+    display:none;
+}
+
+.accordion-fqa .content-text{
+    color:#131313;
+    padding:0 10px;
+    line-height:26px;
+    max-height: 0;
+    overflow:hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion-fqa input[type="radio"]:checked + label + .content-text{
+    max-height:800px;
+    padding:10px 10px 20px;
+}
 
