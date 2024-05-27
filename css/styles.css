@@ -514,3 +514,37 @@ input[type="radio"]{
     max-height:800px;
     padding:10px 10px 20px;
 }
+
+.demo-vid{
+    background: #FFD5A5;
+    height:1050px;
+}
+.demostracion video{
+    background: #FFD5A5;
+}
+.demo-vid-header{
+    height: 12rem;
+    align-content: center;
+    background-color: #FBB768;
+}
+.demo-vid-titulo{
+    align-content: center;
+    font-weight: 900;
+    font-size: 32px;
+    color: #1E3A8A;
+}
+.demo-vid-text{
+    align-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #131313;
+}
+.video1{
+    padding:20px 20px 40px;
+   
+    background: #FFD5A5;
+}
+
+.youtube1{
+    border-radius: 30px;
+}
