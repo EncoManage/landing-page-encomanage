@@ -733,9 +733,8 @@ footer{
     background-color: #1E3A8A;
 }
 .footer-container{
-   
     width: 100%;
-    padding: 70px 300px 20px;
+    padding: 50px;
     display: flex;
     justify-content: center;
 }
@@ -745,9 +744,9 @@ footer{
 }
 .social-icons a{
     text-decoration: none;
-    padding: 10px;
-    background-color: #FFF9F2;
-    margin: 10px;
+    padding: 5px;
+   
+    margin: 5px;
     border-radius: 50%;
 }
 
@@ -758,7 +757,7 @@ footer{
 }
 
 .social-icons a:hover{
-    background-color: #111;
+    
     transition: 0.5s;
 }
 
@@ -855,6 +854,6 @@ footer{
 }
 
 .redes-sociales{
+    margin: 30px 0;
     color: #FFF9F2;
 }
-
