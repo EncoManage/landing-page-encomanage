@@ -734,7 +734,7 @@ footer{
 }
 .footer-container{
     width: 100%;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     justify-content: center;
 }
@@ -823,7 +823,7 @@ footer{
 }
 .footer-nav2{
     display: flex;
-    margin: 30px 200px;
+    margin: 0px 200px;
     justify-content: right;
     
 }
