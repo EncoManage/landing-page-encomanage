@@ -336,11 +336,6 @@ section{
     font-weight: bold;
 }
 
-
-
-
-
-=======
 .beneficios{
     background:#FFF9F2;
 }
@@ -723,5 +718,143 @@ input[type="radio"]{
     100% {
         left: -200%;
     }
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #1E3A8A;
+}
+.footer-container{
+   
+    width: 100%;
+    padding: 70px 300px 20px;
+    display: flex;
+    justify-content: center;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #FFF9F2;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icons a i{
+    font-size: 2em;
+    color:#FFF9F2;
+    opacity: 0.9;
+}
+
+.social-icons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.social-icons a:hover i{
+    color: #FFF9F2;
+    transition: 0.5s;
+}
+
+.footer-nav{
+    justify-content: left;
+    margin: 30px 0;
+}
+
+.footer-nav ul{
+    
+    justify-content: left;
+}
+
+.footer-nav ul li a{
+    color: #FFF9F2;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-nav ul li a:hover{
+    opacity: 1;
+}
+.footer-nav0{
+    justify-content: left;
+    margin: 30px 0;
+}
+
+.footer-nav0 ul{
+    justify-content: left;
+}
+
+.footer-nav0 ul li a{
+    justify-content: left;
+    color: #FFF9F2;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-nav0 ul li a:hover{
+    justify-content: left;
+    opacity: 1;
+}
+.footer-nav0 ul li b{
+    justify-content: left;
+    color: #FFF9F2;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-nav0 ul li b:hover{
+    opacity: 1;
+}
+.footer-nav2{
+    display: flex;
+    margin: 30px 200px;
+    justify-content: right;
+    
+}
+
+.footer-nav2 ul{
+   
+    display: flex;
+}
+
+.footer-nav2 ul li a{
+   
+    color: #FFF9F2;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-nav2 ul li a:hover{
+    opacity: 1;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+.redes-sociales{
+    color: #FFF9F2;
 }
 
